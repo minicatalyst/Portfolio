@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <link rel="stylesheet" href="dstyles.css">
+
+
+  <nav id="navbar">
+    <header class="header">
+      <h1>Bookeeping</h1><ul style="list-style: none;">
+      <li><a href="#Introduction" class="nav-link">Introduction</a></li>&nbsp
+      <li><a href="#P1" class="nav-link">What is Bookeeping?</a></li>&nbsp
+      <li><a href="#P2" class="nav-link">Bookeeping to abide by regulations:</a></li>&nbsp
+      <li><a href="#P3" class="nav-link">Bookeeping for Taxes:</a></li>&nbsp
+      <li><a href="#P4" class="nav-link">Bookeeping to benefit the business owner:</a></li>&nbsp
+      <li><a href="#Conclusion" class="nav-link">Conclusion</a></li>&nbsp
+      </ul>
+  </nav>
+      <ul class="menu" style="list-style: none;">
+      <li><a href="#Introduction" class="menuItem">Introduction</a></li>
+      <li><a href="#P1" class="menuItem">What is Bookeeping?</a></li>
+      <li><a href="#P2" class="menuItem">Bookeeping to abide by regulations:</a></li>
+      <li><a href="#P3" class="menuItem">Bookeeping for Taxes:</a></li>
+      <li><a href="#P4" class="menuItem">Bookeeping to benefit the business owner:</a></li>
+      <li><a href="#Conclusion" class="menuItem">Conclusion</a></li>
+      </ul>
+    <button class= "hamburger">
+      <i class="menuIcon material-icons">menu</i>
+      <i class="closeIcon material-icons">close</i>
+    </button>
+    <script type="text/javascript" src="docs.js">
+    const menu = document.querySelector(".menu");
+      const menuItems = document.querySelectorAll(".menuItem");
+      const hamburger= document.querySelector(".hamburger");
+      const closeIcon= document.querySelector(".closeIcon");
+      const menuIcon = document.querySelector(".menuIcon");
+      
+      function toggleMenu() {
+        if (menu.classList.contains("showMenu")) {
+          menu.classList.remove("showMenu");
+          closeIcon.style.display = "none";
+          menuIcon.style.display = "block";
+        } else {
+          menu.classList.add("showMenu");
+          closeIcon.style.display = "block";
+          menuIcon.style.display = "none";
+        }
+      }
+      
+      hamburger.addEventListener("click", toggleMenu);
+      
+      menuItems.forEach( 
+        function(menuItem) { 
+          menuItem.addEventListener("click", toggleMenu);
+        }
+      )
+      </script>
+    </header>
+    <main>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header class="section">
+          <h3>Introduction</h3>
+        </header>
+          <code>
+          <p> Bookkeeping is crucial to the success of a business. Small business owners may not feel it necessary to hire a bookkeeper especially if they keep basic records of their finances. This thought process, however,
+           is detrimental to the overall success of a business. Your finances tell a story of your business. The better the story is recorded; the clearer vision you have as to whether your business is operating at its optimal level. Like any good story, your records should show a specific overview of details regarding your finances. </p>
+      </section> 
+      &nbsp
+
+    <section id="P1" class="main-section">
+    <header class="section">
+      <h3>What kinds of things does bookkeeping entail?</h3>
+    </header>
+          <code>
+          <p> Bookkeeping is basic accounting that businesses utilize to make sure that their finances are correctly organized and filed. Bookkeeping is essential for the financial health of a business. When transactions are recorded, internal and external users can easily see the financial security within a business.  For filing purposes as well, the IRS requires business owners to maintain records of receipts, purchases, expenses, assets, and any other transactions related to business activities. Inaccurate reporting can set you back legally and prevent the succession of your business. Therefore, bookkeeping throughout the year helps business owners abide by regulations and provide all the necessary documentation when it is needed. Bookkeeping is beneficial to the owner as well. It creates an organized overview of the status of the business and can remind owners of obligations they can pursue and when to pursue them in a convenient manner. This provides the owner with clarity when decision making and planning for the future of their company. A responsible business owner has clean looking books and can present these to investors as well. Getting loans is already hard, maintaining proper accounting records will ensure fewer delays in business owners receiving financial help to grow their business.</p>
+    </section>
+    &nbsp
+
+    <section id="P2" class="main-section">
+    <header class="section">
+      <h3>Bookkeeping to abide by regulations:</h3>
+    </header>
+          <code>
+          <p>The Financial Accounting Standards Board (FASB) is the organization that establishes standards of financial reporting in the United States. To make sure business owners are following the regulations of the FASB, they must keep detailed records of their finances. Without bookkeeping, providing this information is a difficult and timely task, and when done improperly, can lead to a business being denied loans and investments or even put under legal review. The IRS does not require a specific type of recordkeeping, if it clearly shows your income and expenses and provides all the necessary information related to your area of business, it will be accepted. However, keeping clean, organized records is the goal because it saves time in the long run. Investors also look at your financial records to ensure whether your company is a quality investment opportunity. For this reason, your books should be organized and easy to read. Moreover, the quality of the bookkeeping will make you look like the responsible business owner you are, and investment opportunities will no doubt fall into your lap. Once again, your finances and records tell a story to external users so make sure you have well-kept books.</p>
+    </section>
+    &nbsp
+
+    <section id="P3" class="main-section">
+    <header class="section">
+      <h3>Bookkeeping for Taxes:</h3>
+    </header>
+          <code>
+          <p> For tax purposes, it is essential for a company to keep records so that they are in a good position during tax season. Well-kept bookkeeping provides information that allows for potential tax liability to be accurately estimated.  Therefore, taxes will never be a surprise for the business owner who invests in a proper bookkeeper. Recordkeeping for tax purposes ensures your compliance with regulations and makes you more prepared. In the case of an audit, having a clear, easy to read record will provide proof for the items listed on your return. Your accountant will also be able to quickly spot potential deductions when it is all laid out prior to tax season. Bookkeeping in general, is a great way to be prepared for taxes because it provides year-round financial analyzations. </p>
+    </section>
+    &nbsp
+
+    <section id="P4" class="main-section">
+    <header class="section">
+      <h3>Bookkeeping to benefit the owner:</h3>
+    </header>
+        <p>The owner of a business is typically a busy person and would rather waste little time. The success of a company relies solely on the ability of the owner to make a strategic financial and operating plan. That is why bookkeeping should never be overlooked. By measuring expenses and assets, an owner has a deep understanding of where their money is, at all times. You wouldn’t feel comfortable spending money in your bank account if you didn’t know how much was in it would you? Similarly, spending money within the business is a lot easier when you have a story of your finances and can predict your profit reliably. Organized books are easy to read and require little time to understand. That is why having a specific bookkeeper is a necessary expense. Budgeting is easier when your finances are clearly laid out for you. The more organized your accountant is, the better it will be to analyze your finances and make decisions. Being able to predict your profit is a strong characteristic of any business owner. This way, you will rarely be surprised by expenses that come up, and you will have a plan. </p>
+      &nbsp
+          </section>
+    <section id="Conclusion" class="main-section">
+    <header class="section">
+      <h3>Conclusion:</h3>
+    </header>
+        <p>Bookkeeping is essential to every business owner because of the great benefits and organization that one gets from keeping detailed financial transactions. Responsible business owners who are looking for a bookkeeper are already one step closer to reaching the success they wish from their company. Lender’s care about your financial story, so to keep your business going, remember the importance of recordkeeping.  </p>
+              &nbsp    
+    </section>
+
+</main>
+</html>

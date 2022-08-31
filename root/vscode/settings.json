@@ -1,0 +1,5 @@
+{
+    "php.validate.enable": true,
+    "php.executablePath": "C: php",
+    "livePreview.defaultPreviewPath": "/index.html"
+}

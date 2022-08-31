@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+  font-family: 'Koulen', cursive;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.4;
+  color: white;
+  overflow: scroll;
+}
+body {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-red-hearts-romantic-creamy-peach-background-for-vector-id1191251531?k=20&m=1191251531&s=612x612&w=0&h=PunwHk01KVfMU_lgyioua0PAb4R7R2LuCiFWt3pVdUY=);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+p2 {
+  font-size: 2rem;
+}
+
+h1,
+p { 
+margin-top: 0;
+margin-bottom: 0.5rem;
+color: darkred;
+text-align: center;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+}
+
+button {
+  border: bold;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+header {
+  padding: 0;
+}
+.text-center {
+  text-align: center;
+}
+
+
+form {
+  background-color: darkred;
+  padding: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  text-align: center;
+}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.input-textarea {
+  min-height: 100px;
+  width:100%;
+  resize: vertical;
+}
+.submit-button {
+  width: 100%;
+  color: darkred;
+  background-color: pink;
+  border-color: darkred;
+}
+.submit-button:hover {
+  background-color: white;
+  border-color: darkred;
+}

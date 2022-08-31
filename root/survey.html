@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="sstyles.css"><div class="container">
+    <header class="header">
+     <h1 id="title" class="text-center" > About me Survey </h1>
+       <p id="description" class=" description text-center"> Some basics...
+       </header> 
+     <form id="survey-form">
+       <div class="form group">
+         <label id="name-label" for="name"> Name </label>
+         <input 
+                type= "text"
+                name= "name"
+                id= "name"
+                class= "form-control"
+                placeholder= "Enter your name here"
+                /> </div>
+       
+       <div class="form-group">
+       <label id= "email-label" for="email"> Email </label>
+       <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="enter your email here"
+              required
+              /> </div>
+     
+       <div class="form-group">
+         <label id= "number-label" for= "age"> Age </label>
+         <input
+                type= "number"
+                min="0"
+                max="100"
+                name="age"
+                class="form-control"
+                placeholder="add your age here"
+                required
+                /> </div>
+       <p2> Which of these is your favorite food? </p2>
+       <div class= "form-control">
+         <select id= "dropdown" name="my vibe" class="form-control"> <option disabled selct value> Select the one that you could eat everyday</option>
+           <option value="candy"> Candy, I have sweet tooth </option>
+           <option value="grilled"> Hotdogs and Hamburgers </option>
+           <option value="pasta"> Pasta, Lasagna </option>
+           <option value="Spanish"> Rice or Paella </option>
+           <option value="soup"> Any type of soup! </option>
+           <option value="fish"> Seafood!! </option>
+         </select>
+       </div>
+       <div class="form-group">
+         <p2> What sounds most fun to you? </p2>
+         <label> </div>
+         <div class="form-group"> <label><input
+                 name="fun"
+                 Value="Book"
+                 type="radio"
+                 class="input-radio"
+                 /> Sitting by the fire reading my favorite book</label>
+       </div>
+        <div class="form-group"> <label>
+           <input
+                  name="fun"
+                  value="rain"
+                  type="radio"
+                  class="input-radio"
+                  /> The sound of light rain on a tin roof </label></div>
+       <div class="form-group"> <label> 
+         <input
+                name="fun"
+                value="friends"
+                type="radio"
+                class="input-radio"
+                /> Socializing with my friends </div> </label>
+       <div class="form-group"> <label>
+         <input 
+                name="fun"
+                value="working"
+                type="radio"
+                class="input-radio"
+                /> Working hard to achieve my career goals</div></label>
+       
+        <div class="form-group">
+         <p2> What is your favorite color?</p2> 
+         <span class="clue"> (check all that apply)
+           </div> <label>
+             <input
+                    name="colors"
+                    value="blue"
+                    type="checkbox"
+                    class="input-checkbox"
+                         /> Blue </label> 
+            <label><input
+                    name="colors"
+                    value="Red"
+                    type="checkbox"
+                    class="input-checkbox"
+                         /> Red </label> 
+           
+           <label><input
+                        name="colors"
+                        value="Purple"
+                        type="checkbox"
+                        class="input-checkbox"
+                        /> Purple</label>
+         
+           <label><input
+                      name="colors"
+                      value="Pink"
+                      type="checkbox"
+                      class="input-checkbox"
+                      /> Pink </label>
+          <label><input
+                     name="colors"
+                     value="Green"
+                     type="checkbox"
+                     class="input-checkbox"
+                     /> Green </label>
+            <label><input
+                    name="colors"
+                    value="Yellow"
+                    type="checkbox"
+                    class="input-checkbox"
+                    /> Yellow </label>
+            <label><input
+                    name="colors"
+                    value="Orange"
+                    type="checkbox"
+                    class="input-checkbox"
+                    /> Orange</label> 
+          
+        <div class="form-group"> <p2> Tell me a little bit more about you!</p2>
+     
+          <div class="form-group"> <textarea
+                id="about me"
+                class="input-textarea"
+                name="about me"
+                placeholder="Who are you?"
+                ></textarea> </div>
+         <div class="form-group">
+           <button type="submit" id="submit" class="submit-button">
+             Submit
+           </button>
+          </div>
+     </form>
+   
