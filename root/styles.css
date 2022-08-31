@@ -122,6 +122,11 @@ body{
     }
   }
   
+ @media only screen and (max-width: 480px) {
+    .grid {
+      flex-direction:column;
+    }
+  }
   .grid {
     display: flex;         
     flex-wrap: wrap;    
