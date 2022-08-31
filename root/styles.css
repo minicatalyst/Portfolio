@@ -122,20 +122,12 @@ body{
     justify-content: space-around;
   }
 
-@media only screen and (max-device-width: 700px) {
+@media(max-width:768px) {
     .grid {
       flex-direction:column;
     }
   }
-  
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px){
-    .grid {
-      flex-direction:column;
-    }
-  }
-  
+ 
   .cell {
     flex: 0 0 32%;         
     margin-bottom: 5rem;
