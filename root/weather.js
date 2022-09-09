@@ -46,7 +46,7 @@ form.addEventListener("submit", e => {
   }
 
 
-    const url = `${apiBase}?q=${city}&units=imperial&appid=${apiKey}`;
+    const url = `${apiBase}?q=${inputVal}&units=imperial&appid=${apiKey}`;
     fetch(url){
         .then(response => response.json());
         .then(data => updateUI(data))
