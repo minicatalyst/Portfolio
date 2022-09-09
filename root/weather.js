@@ -4,8 +4,7 @@ const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
 
 const apiKey = "c02982ea23b96b12b30f3e1fd1b68d11";
-const apiBase = 'https://api.openweathermap.org/data/2.5/weather';
-
+;
 form.addEventListener("submit", e => {
   e.preventDefault();
   let inputVal = input.value;
@@ -46,9 +45,9 @@ form.addEventListener("submit", e => {
   }
 
 
-    const url = `${apiBase}?q=${inputVal}&units=imperial&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=imperial`;
     fetch(url){
-        .then(response => response.json());
+        .then(response => response.json()){
         .then(data => updateUI(data))
       {
       const { main, name, sys, weather } = data;
