@@ -191,20 +191,22 @@ height: auto;
 
 
 /* media */
-
-
-
-  @media screen and (max-width: 1000px) { 
-    .ajax-section .cities {
-      grid-template-columns: repeat(3, 1fr);
+@media (min-width: 320px) and (max-width: 480px){
+    .top-banner form .ajax-section .cities{
+      flex-direction:column;
     }
   }
 
- @media (max-width: 700px) {
-  .top-banner form {
-    flex-direction: column;
+@media (min-width: 481px) and (max-width: 767px){
+    .top-banner form .ajax-section .cities {
+      flex-direction:column;
+    }
   }
-   
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.top-banner form .ajax-section .cities {
+      grid-template-columns: repeat(3, 1fr);
+  }
   .top-banner form input,
   .top-banner form button {
     width: 100%;
